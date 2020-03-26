@@ -27,8 +27,6 @@ h2 {
 .h2-kleuren {
     font-size: 3.75em;
     color: #BED600;
-    margin-bottom: 0;
-    margin-top: 0;
     line-height: 1.125em;
     display: inline;
 }
@@ -210,6 +208,59 @@ p {
     margin: 0;
     margin-top: 2.500em;
     margin-bottom: 2.500em;
+}
+
+/*info-pagina*/
+.info-pagina {
+    background-color: #0066A1;
+    color: white;
+    width: calc(100% + 10em);
+    height: calc(100% + 10em);
+    padding: 4em;
+    margin-left: -5em;
+    margin-top: -5em;
+}
+
+.info-pagina h1 {
+    color: white;
+}
+
+.casus-uitleg {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.casus-uitleg p {
+    width: 50%;
+    line-height: 1.750em;
+}
+
+.casus-uitleg p:first-of-type {
+    padding-right: 1.5em;
+    order: -1;
+}
+
+.casus-uitleg p:nth-of-type(2) {
+    padding-left: 1.5em;
+    order: 0;
+}
+
+.casus-uitleg p:nth-of-type(3) {
+    padding-left: 1.5em;
+    margin-bottom: 0;
+    order: 1;
+}
+
+#nel-gerard-blij {
+    width: 27.813em;
+    margin-left: 5.938em;
+    order: 0;
+    margin-right: 2.5em;
+}
+
+.casus-uitleg .button-1 {
+    order: 1;
+    
 }
 
 
